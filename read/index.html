@@ -166,7 +166,7 @@
 			.nav-pannel-bk{
 			    position:fixed;
 			    bottom:100px;
-			    height:135px;
+			    height:180px;
 			    width:100%;
 			    background:#000;
 			    opacity:0.9;
@@ -175,7 +175,7 @@
 			.nav-pannel{
 			    position:fixed;
 			    bottom:100px;
-			    height:135px;
+			    height:180px;
 			    width:100%;
 			    background:none;
 			    color:#fff;
@@ -193,6 +193,15 @@
 			    
 			}
 			.font-size-button{
+			    height:33px;
+			    width:114px;
+			    background:none;
+			    border:1px #8c8c8c solid;
+			    color:#fff;
+			    border-radius:16px;
+			    padding:5px 40px;
+			}
+			.line-height-button{
 			    background:none;
 			    border:1px #8c8c8c solid;
 			    color:#fff;
@@ -265,7 +274,7 @@
 		    <div id="fiction_chapter_title"></div>
 		    <div id="fiction_container" class="m-read-content">
 		    <h4>梅西在今年饮恨的模式</h4>
-		    <p>
+		    <p id="text">
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
 		        双方在常规时间与加时赛的120分钟内战成0-0，随即进入点球大战一决胜负，但比达尔与梅西双双罚丢关键点球，尤其是首个出场罚点的梅西就一脚打飞，成为阿根廷再度悲剧的头号“罪人”。
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
@@ -274,8 +283,6 @@
 		        双方在常规时间与加时赛的120分钟内战成0-0，随即进入点球大战一决胜负，但比达尔与梅西双双罚丢关键点球，尤其是首个出场罚点的梅西就一脚打飞，成为阿根廷再度悲剧的头号“罪人”。
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
 		        双方在常规时间与加时赛的120分钟内战成0-0，随即进入点球大战一决胜负，但比达尔与梅西双双罚丢关键点球，尤其是首个出场罚点的梅西就一脚打飞，成为阿根廷再度悲剧的头号“罪人”。
-		    </p>  
-		    <p>
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
 		        双方在常规时间与加时赛的120分钟内战成0-0，随即进入点球大战一决胜负，但比达尔与梅西双双罚丢关键点球，尤其是首个出场罚点的梅西就一脚打飞，成为阿根廷再度悲剧的头号“罪人”。
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
@@ -284,8 +291,7 @@
 		        双方在常规时间与加时赛的120分钟内战成0-0，随即进入点球大战一决胜负，但比达尔与梅西双双罚丢关键点球，尤其是首个出场罚点的梅西就一脚打飞，成为阿根廷再度悲剧的头号“罪人”。
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
 		        双方在常规时间与加时赛的120分钟内战成0-0，随即进入点球大战一决胜负，但比达尔与梅西双双罚丢关键点球，尤其是首个出场罚点的梅西就一脚打飞，成为阿根廷再度悲剧的头号“罪人”。
-		    </p>  
-		    <p>
+		  
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
 		        双方在常规时间与加时赛的120分钟内战成0-0，随即进入点球大战一决胜负，但比达尔与梅西双双罚丢关键点球，尤其是首个出场罚点的梅西就一脚打飞，成为阿根廷再度悲剧的头号“罪人”。
 		        未曾想，梅西在今年饮恨的模式几乎与库里如出一辙，在美洲杯决赛上夺冠大热门阿根廷迎战卫冕冠军智利。
@@ -305,10 +311,10 @@
 		    </div>
 		    <div class="nav-pannel-bk font-container" style="display:none"></div>
 		    <div class="nav-pannel font-container"  id="font-container" style="display:none">
-		        <div>
+		        <div class="child-mod">
 		            <span>行距</span>
-		            <button id="increaseLine-button" class="font-size-button">增加</button>
-		            <button id="reduceLine-button" class="font-size-button">减少</button>
+		            <button id="increaseLine-button" class="line-height-button">增加</button>
+		            <button id="reduceLine-button"   class="line-height-button">减少</button>
 		        </div>
 		        <div class="child-mod">
 		            <span>字号</span>
@@ -391,6 +397,14 @@
 		        initFontSize=14;
 		    };
 		    RootContainer.css('font-size',initFontSize);
+		    
+		    var RootContainer_linehight=$('.m-read-content p');
+		    var initLineheight=Util.StorageGetter('line_height');
+		    /*if(!initLineheight){
+		        initLineheight='21px';
+		    };*/
+		    RootContainer_linehight.css('line-height',initLineheight);
+		    
 		    var RootContainer_bk=$('body');
 		    var initbgcolor=Util.StorageGetter('background_color');
 		    //initbgcolor= parseInt(initbgcolor);
@@ -485,12 +499,11 @@
 		               Dom.top_nav.hide();
 		               Dom.font_container.hide();
 		           }
-		           e.stopPropagation();
 		           $('#font-button').removeClass('current');
 		        });
 					var flag = true;
 					$('#btn-night').addClass('wrap-display');
-		        $('#item-warp3').click(function(){
+		            $('#item-warp3').click(function(){
 		        	if(flag){
 		        		$('#btn-day').addClass('wrap-display');
 		        		$('#btn-night').removeClass('wrap-display');
@@ -526,16 +539,6 @@
 		            RootContainer.css('font-size',initFontSize);
 		            Util.StorageSetter('font_size',initFontSize);
 		        });
-
-		        $('#background-nav').click(function(e){
-		        	var qq=e.target.getAttribute('name');
-		        	var arr =['#f7eee5','#e9dfc7','#a4a4a4','#cdefce','#283548','#0f1410']
-		        		initbgcolor=arr[qq-1];
-		      			RootContainer_bk.css('background-color',initbgcolor);
-		            	Util.StorageSetter('background_color',initbgcolor);
-		        })	
-		        
-
 		        $('#small-button').click(function(){
 		             if(initFontSize<12){
 		                return;
@@ -544,36 +547,29 @@
 		            RootContainer.css('font-size',initFontSize);
 		            Util.StorageSetter('font_size',initFontSize);
 		        });
-		        /*$('#color1').click(function(){
-		            initbgcolor='#f7eee5';
-		            RootContainer_bk.css('background-color',initbgcolor);
-		            Util.StorageSetter('background_color',initbgcolor);
+		        
+		        var lineHeight = 23;
+		        var initLineheight;
+		        $('#increaseLine-button').click(function(){
+		            lineHeight+=2;
+		            initLineheight = lineHeight +'px';
+		            RootContainer_linehight.css('line-height',initLineheight);
+		            Util.StorageSetter('line_height',initLineheight);
 		        });
-		        $('#color2').click(function(){
-		            initbgcolor='#e9dfc7';
-		            RootContainer_bk.css('background-color',initbgcolor);
-		            Util.StorageSetter('background_color',initbgcolor);
+		        $('#reduceLine-button').click(function(){
+		        	 lineHeight-=2;
+		            initLineheight = lineHeight +'px';
+		            RootContainer_linehight.css('line-height',initLineheight);
+		            Util.StorageSetter('line_height',initLineheight);
 		        });
-		        $('#color3').click(function(){
-		            initbgcolor='#a4a4a4';
-		            RootContainer_bk.css('background-color',initbgcolor);
-		            Util.StorageSetter('background_color',initbgcolor);
-		        });
-		        $('#color4').click(function(){
-		            initbgcolor='#cdefce';
-		            RootContainer_bk.css('background-color',initbgcolor);
-		            Util.StorageSetter('background_color',initbgcolor);
-		        });
-		        $('#color5').click(function(){
-		            initbgcolor='#283548';
-		            RootContainer_bk.css('background-color',initbgcolor);
-		            Util.StorageSetter('background_color',initbgcolor);
-		        });
-		        $('#color6').click(function(){
-		            initbgcolor='#0f1410';
-		            RootContainer_bk.css('background-color',initbgcolor);
-		            Util.StorageSetter('background_color',initbgcolor);
-		        });*/
+		        
+		        $('#background-nav').click(function(e){
+		        	var qq=e.target.getAttribute('name');
+		        	var arr =['#f7eee5','#e9dfc7','#a4a4a4','#cdefce','#283548','#0f1410']
+		        		initbgcolor=arr[qq-1];
+		      			RootContainer_bk.css('background-color',initbgcolor);
+		            	Util.StorageSetter('background_color',initbgcolor);
+		        })	
 		        Win.scroll(function(){
 		               Dom.bottom_nav.hide();
 		               Dom.top_nav.hide();
@@ -584,9 +580,7 @@
 		            
 		        });
 		        $('#next_button').click(function(){
-		            readerModel.nextChapter(function(data){
-		               readerUI(data); 
-		            });
+		            
 		        });
 		    }
 
